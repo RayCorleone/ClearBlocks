@@ -1,5 +1,5 @@
-#include "AppClearBlocks.h"
-#include "MainScene.h"
+#include "Classes/AppClearBlocks.h"
+#include "Classes/Scene/MainScene.h"
 
 //#define USE_AUDIO_ENGINE 1
 #define USE_SIMPLE_AUDIO_ENGINE 1
@@ -19,7 +19,7 @@ using namespace CocosDenshion;
 USING_NS_CC;
 
 //change this to change zhe size of the window!!!!
-static cocos2d::Size designResolutionSize = cocos2d::Size(1024, 768);
+static cocos2d::Size designResolutionSize = cocos2d::Size(1600, 900);
 
 static cocos2d::Size smallResolutionSize = cocos2d::Size(480, 320);
 static cocos2d::Size mediumResolutionSize = cocos2d::Size(1024, 768);

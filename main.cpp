@@ -1,5 +1,5 @@
 #include "main.h"
-#include "AppClearBlocks.h"
+#include "Classes/AppClearBlocks.h"
 #include "cocos2d.h"
 
 USING_NS_CC;

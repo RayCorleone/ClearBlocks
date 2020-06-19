@@ -2,6 +2,7 @@
 #define  _APP_CLEARBLOCKS_H_
 
 #include "cocos2d.h"
+#include "cocos-ext.h"
 
 class  AppClearBlocks : private cocos2d::Application
 {

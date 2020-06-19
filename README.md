@@ -3,3 +3,5 @@
 
 # Version:
 · 0_Base: The fundamental part of the basic version of ClearBlocks, useless but important.
+· 1.0: (Not uploaded) Basic funcations are done.
+· 1.3：All the funcations works well, but structure is not so clear.

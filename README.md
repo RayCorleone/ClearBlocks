@@ -8,8 +8,8 @@
 · 2.0：Finish all funcations.<br/>
 
 ## 项目信息：
-· 项目名：<br/> 
-      **Clear Blocks(开心消消乐)**<br/>
+**· 项目名：**<br/> 
+@@ Clear Blocks(开心消消乐)<br/>
 · 项目成员：<br/>
       胡昊育 - 1952100<br/>
 · 成员贡献比例： <br/>

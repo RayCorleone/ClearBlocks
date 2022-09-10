@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Scene">
+      <UniqueIdentifier>{df92a8b7-41da-4a69-a777-5d2780ccc50e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Overall">
+      <UniqueIdentifier>{f18087f4-90f0-4e10-b729-3cad47ace3f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Block">
+      <UniqueIdentifier>{1f614e7e-d7f0-478e-b953-4eb158c16636}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppClearBlocks.cpp">
+      <Filter>Class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\MainScene.cpp">
+      <Filter>Class\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Overall\WidelyUsed.cpp">
+      <Filter>Class\Overall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\ATypeGameScene.cpp">
+      <Filter>Class\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Block\Block.cpp">
+      <Filter>Class\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\SecondMainScene.cpp">
+      <Filter>Class\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Block\IceBlock.cpp">
+      <Filter>Class\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\BTypeGameScene.cpp">
+      <Filter>Class\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\TestTypeGameScene.cpp">
+      <Filter>Class\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppClearBlocks.h">
+      <Filter>Class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\MainScene.h">
+      <Filter>Class\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Overall\WidelyUsed.h">
+      <Filter>Class\Overall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\ATypeGameScene.h">
+      <Filter>Class\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Block\Block.h">
+      <Filter>Class\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\SecondMainScene.h">
+      <Filter>Class\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Block\IceBlock.h">
+      <Filter>Class\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\BTypeGameScene.h">
+      <Filter>Class\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\TestTypeGameScene.h">
+      <Filter>Class\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
